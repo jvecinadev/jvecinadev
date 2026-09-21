@@ -51,8 +51,6 @@ Full-stack community issue-reporting platform for local government use. Resident
 
 [View Repository](https://github.com/jvecinadev/bantay-ph)
 
-*(Update the two links above if either repo uses a different name on your GitHub.)*
-
 ## Tech Stack
 
 **Frontend**
