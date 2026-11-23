@@ -1,47 +1,44 @@
-<table>
-  <tr>
-    <td valign="top" width="65%">
-      <h2>John Francis Vecina</h2>
-      <p><strong>Full-Stack & Applied AI Engineer</strong></p>
-      <p>I build web and AI systems where the database enforces the rules, schemas constrain the outputs, and integration tests prove it.</p>
-      <p><sub>TypeScript & Node.js for core application architecture.<br/>Python & FastAPI for structured LLM pipelines and orchestration.</sub></p>
-    </td>
-    <td valign="top" width="35%">
-      <p><strong>Links</strong><br/>
-      <a href="https://jvecina-dev.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/john-francis-vecina-a76aa63b9/">LinkedIn</a> · <a href="mailto:johnvecina640@gmail.com">Email</a></p>
-      <p><strong>Focus</strong><br/>
-      <sub>Tenant Isolation · Database-Driven RBAC<br/>Transactional State · Structured LLM I/O</sub></p>
-      <p><strong>Active</strong><br/>
-      <a href="https://github.com/jvecinadev/plinth"><code>plinth</code></a> · <a href="https://github.com/jvecinadev/bantay-ph"><code>bantay-ph</code></a></p>
-    </td>
-  </tr>
-</table>
+### Full-Stack & Applied AI Engineer
+
+I build web and AI systems where the database enforces the rules, schemas constrain the outputs, and integration tests prove it. **TypeScript & Node.js** for core application architecture; **Python & FastAPI** for structured LLM pipelines.
+
+<p>
+  <a href="https://jvecinadev-rag.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-jvecina--dev.vercel.app-161b22?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/john-francis-vecina-a76aa63b9/"><img src="https://img.shields.io/badge/LinkedIn-John_Francis_Vecina-161b22?style=flat-square&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+  <a href="mailto:johnvecina640@gmail.com"><img src="https://img.shields.io/badge/Email-johnvecina640%40gmail.com-161b22?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" /></a>
+</p>
+
+---
 
 ### Selected Systems
 
 <table>
   <tr>
     <td valign="top" width="50%">
-      <h4>01 // <a href="https://github.com/jvecinadev/plinth">Plinth</a></h4>
-      <p><sub><strong>Multi-Tenant Workspace & Project SaaS</strong></sub></p>
-      <p><sub>Workspace-scoped B2B system managing clients, projects, and tasks with strict tenant isolation and cached analytical pipelines.</sub></p>
-      <ul>
-        <li><sub><strong>Isolation & Auth:</strong> 4-tier RBAC (Owner to Viewer), workspace switching, HTTP-only JWTs, and Zod validation on every route.</sub></li>
-        <li><sub><strong>Data & Cache:</strong> Dashboard metrics driven by MongoDB aggregation pipelines with Redis caching.</sub></li>
-        <li><sub><strong>Verification:</strong> Jest + Supertest integration suite proving cross-tenant isolation and soft-delete integrity in CI.</sub></li>
-      </ul>
-      <p><sub><code>React 19</code> <code>TypeScript</code> <code>Express 5</code> <code>MongoDB</code> <code>Redis</code> <code>Zod</code> <code>Docker</code></sub></p>
+      <h4><a href="https://github.com/jvecinadev/plinth">01 // Plinth</a> — Multi-Tenant B2B SaaS</h4>
+      <p><sub>Workspace-scoped system for managing clients, projects, and tasks with strict tenant isolation and cached analytical pipelines.</sub></p>
+      <p><sub><strong>Architecture:</strong> 4-tier RBAC · Zod on every route · HTTP-only JWTs · MongoDB aggregation dashboard cached in Redis · Jest + Supertest suite verifying tenant isolation in CI.</sub></p>
+      <p>
+        <img src="https://img.shields.io/badge/React_19-161b22?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=3178C6" />
+        <img src="https://img.shields.io/badge/Express_5-161b22?style=flat-square&logo=express&logoColor=white" />
+        <img src="https://img.shields.io/badge/MongoDB-161b22?style=flat-square&logo=mongodb&logoColor=47A248" />
+        <img src="https://img.shields.io/badge/Redis-161b22?style=flat-square&logo=redis&logoColor=DC382D" />
+        <img src="https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=2496ED" />
+      </p>
     </td>
     <td valign="top" width="50%">
-      <h4>02 // <a href="https://github.com/jvecinadev/bantay-ph">Bantay PH</a></h4>
-      <p><sub><strong>Civic Issue-Reporting & Audit Platform</strong></sub></p>
-      <p><sub>Local government workflow engine routing resident reports through verification and staff resolution with an immutable audit trail.</sub></p>
-      <ul>
-        <li><sub><strong>Dynamic RBAC:</strong> Per-request database permission resolution rather than stale JWT-baked roles.</sub></li>
-        <li><sub><strong>Concurrency:</strong> Enforced report lifecycle state machine using transactional, race-condition-safe updates.</sub></li>
-        <li><sub><strong>Schema Rigor:</strong> Prisma + MySQL enforcing decimal coordinates, unique validator constraints, and strict cascade rules.</sub></li>
-      </ul>
-      <p><sub><code>React 19</code> <code>TypeScript</code> <code>Express 5</code> <code>Prisma</code> <code>MySQL</code> <code>TanStack Query</code></sub></p>
+      <h4><a href="https://github.com/jvecinadev/bantay-ph">02 // Bantay PH</a> — Civic Workflow Engine</h4>
+      <p><sub>Issue-reporting platform routing resident submissions through verification and staff resolution with an immutable audit trail.</sub></p>
+      <p><sub><strong>Architecture:</strong> Per-request DB permission resolution (no stale JWT roles) · Transactional, race-condition-safe state machine · Strict Prisma schema constraints & cascade rules.</sub></p>
+      <p>
+        <img src="https://img.shields.io/badge/React_19-161b22?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=3178C6" />
+        <img src="https://img.shields.io/badge/Express_5-161b22?style=flat-square&logo=express&logoColor=white" />
+        <img src="https://img.shields.io/badge/Prisma-161b22?style=flat-square&logo=prisma&logoColor=white" />
+        <img src="https://img.shields.io/badge/MySQL-161b22?style=flat-square&logo=mysql&logoColor=4479A1" />
+        <img src="https://img.shields.io/badge/TanStack-161b22?style=flat-square&logo=reactquery&logoColor=FF4154" />
+      </p>
     </td>
   </tr>
 </table>
@@ -50,60 +47,60 @@
 
 <table>
   <tr>
-    <td width="22%"><sub><strong>Languages</strong></sub></td>
+    <td width="20%"><sub><strong>Languages</strong></sub></td>
     <td>
-      <img src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=c9d1d9" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=c9d1d9" alt="Python" />
-      <img src="https://img.shields.io/badge/SQL-161b22?style=flat-square&logo=postgresql&logoColor=c9d1d9" alt="SQL" />
-      <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat-square&logo=javascript&logoColor=c9d1d9" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
+      <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/SQL-161b22?style=flat-square&logo=postgresql&logoColor=4169E1" alt="SQL" />
     </td>
   </tr>
   <tr>
     <td><sub><strong>Backend & Schemas</strong></sub></td>
     <td>
-      <img src="https://img.shields.io/badge/Node.js-161b22?style=flat-square&logo=nodedotjs&logoColor=c9d1d9" alt="Node.js" />
-      <img src="https://img.shields.io/badge/Express_5-161b22?style=flat-square&logo=express&logoColor=c9d1d9" alt="Express" />
-      <img src="https://img.shields.io/badge/FastAPI-161b22?style=flat-square&logo=fastapi&logoColor=c9d1d9" alt="FastAPI" />
-      <img src="https://img.shields.io/badge/Zod-161b22?style=flat-square&logo=zod&logoColor=c9d1d9" alt="Zod" />
-      <img src="https://img.shields.io/badge/Pydantic-161b22?style=flat-square&logo=pydantic&logoColor=c9d1d9" alt="Pydantic" />
+      <img src="https://img.shields.io/badge/Node.js-161b22?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Express_5-161b22?style=flat-square&logo=express&logoColor=white" alt="Express" />
+      <img src="https://img.shields.io/badge/FastAPI-161b22?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Zod-161b22?style=flat-square&logo=zod&logoColor=3E67B1" alt="Zod" />
+      <img src="https://img.shields.io/badge/Pydantic-161b22?style=flat-square&logo=pydantic&logoColor=E92063" alt="Pydantic" />
     </td>
   </tr>
   <tr>
-    <td><sub><strong>Data & Persistence</strong></sub></td>
+    <td><sub><strong>Data & Cache</strong></sub></td>
     <td>
-      <img src="https://img.shields.io/badge/MySQL-161b22?style=flat-square&logo=mysql&logoColor=c9d1d9" alt="MySQL" />
-      <img src="https://img.shields.io/badge/MongoDB-161b22?style=flat-square&logo=mongodb&logoColor=c9d1d9" alt="MongoDB" />
-      <img src="https://img.shields.io/badge/Prisma-161b22?style=flat-square&logo=prisma&logoColor=c9d1d9" alt="Prisma" />
-      <img src="https://img.shields.io/badge/Redis-161b22?style=flat-square&logo=redis&logoColor=c9d1d9" alt="Redis" />
+      <img src="https://img.shields.io/badge/MySQL-161b22?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL" />
+      <img src="https://img.shields.io/badge/MongoDB-161b22?style=flat-square&logo=mongodb&logoColor=47A248" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/Prisma-161b22?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
+      <img src="https://img.shields.io/badge/Redis-161b22?style=flat-square&logo=redis&logoColor=DC382D" alt="Redis" />
     </td>
   </tr>
   <tr>
     <td><sub><strong>AI & LLM Providers</strong></sub></td>
     <td>
-      <img src="https://img.shields.io/badge/Anthropic_Claude-161b22?style=flat-square&logo=anthropic&logoColor=c9d1d9" alt="Claude" />
-      <img src="https://img.shields.io/badge/OpenAI-161b22?style=flat-square&logo=openai&logoColor=c9d1d9" alt="OpenAI" />
-      <img src="https://img.shields.io/badge/Google_Gemini-161b22?style=flat-square&logo=googlegemini&logoColor=c9d1d9" alt="Gemini" />
-      <img src="https://img.shields.io/badge/DeepSeek-161b22?style=flat-square&logo=deepseek&logoColor=c9d1d9" alt="DeepSeek" />
+      <img src="https://img.shields.io/badge/Claude-161b22?style=flat-square&logo=anthropic&logoColor=D97757" alt="Claude" />
+      <img src="https://img.shields.io/badge/OpenAI-161b22?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+      <img src="https://img.shields.io/badge/Gemini-161b22?style=flat-square&logo=googlegemini&logoColor=8E75B2" alt="Gemini" />
+      <img src="https://img.shields.io/badge/DeepSeek-161b22?style=flat-square&logo=deepseek&logoColor=4D6BFE" alt="DeepSeek" />
     </td>
   </tr>
   <tr>
     <td><sub><strong>Frontend & State</strong></sub></td>
     <td>
-      <img src="https://img.shields.io/badge/React_19-161b22?style=flat-square&logo=react&logoColor=c9d1d9" alt="React" />
-      <img src="https://img.shields.io/badge/TanStack_Query-161b22?style=flat-square&logo=reactquery&logoColor=c9d1d9" alt="TanStack Query" />
-      <img src="https://img.shields.io/badge/Zustand-161b22?style=flat-square" alt="Zustand" />
-      <img src="https://img.shields.io/badge/Tailwind_CSS-161b22?style=flat-square&logo=tailwindcss&logoColor=c9d1d9" alt="Tailwind" />
-      <img src="https://img.shields.io/badge/Vite-161b22?style=flat-square&logo=vite&logoColor=c9d1d9" alt="Vite" />
+      <img src="https://img.shields.io/badge/React_19-161b22?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/TanStack_Query-161b22?style=flat-square&logo=reactquery&logoColor=FF4154" alt="TanStack Query" />
+      <img src="https://img.shields.io/badge/Zustand-161b22?style=flat-square&logo=react&logoColor=white" alt="Zustand" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-161b22?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind" />
+      <img src="https://img.shields.io/badge/Vite-161b22?style=flat-square&logo=vite&logoColor=646CFF" alt="Vite" />
     </td>
   </tr>
   <tr>
-    <td><sub><strong>Verification & Infra</strong></sub></td>
+    <td><sub><strong>Testing & Infra</strong></sub></td>
     <td>
-      <img src="https://img.shields.io/badge/Jest-161b22?style=flat-square&logo=jest&logoColor=c9d1d9" alt="Jest" />
-      <img src="https://img.shields.io/badge/Supertest-161b22?style=flat-square" alt="Supertest" />
-      <img src="https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=c9d1d9" alt="Docker" />
-      <img src="https://img.shields.io/badge/GitHub_Actions-161b22?style=flat-square&logo=githubactions&logoColor=c9d1d9" alt="GitHub Actions" />
-      <img src="https://img.shields.io/badge/Linux-161b22?style=flat-square&logo=linux&logoColor=c9d1d9" alt="Linux" />
+      <img src="https://img.shields.io/badge/Jest-161b22?style=flat-square&logo=jest&logoColor=C21325" alt="Jest" />
+      <img src="https://img.shields.io/badge/Supertest-161b22?style=flat-square&logo=testinglibrary&logoColor=25A162" alt="Supertest" />
+      <img src="https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-161b22?style=flat-square&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/Linux-161b22?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
     </td>
   </tr>
 </table>
@@ -111,6 +108,6 @@
 ### Telemetry
 
 <p align="left">
-  <a href="https://github.com/jvecinadev"><img height="135" src="https://github-readme-stats.vercel.app/api?username=jvecinadev&show_icons=true&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=58a6ff&rank_icon=github&include_all_commits=true" alt="GitHub stats" /></a>
-  <a href="https://github.com/jvecinadev?tab=repositories"><img height="135" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jvecinadev&layout=compact&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&langs_count=6" alt="Top languages" /></a>
+  <a href="https://github.com/jvecinadev"><img height="130" src="https://github-readme-stats.vercel.app/api?username=jvecinadev&show_icons=true&bg_color=00000000&title_color=c9d1d9&text_color=8b949e&icon_color=58a6ff&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats" /></a>
+  <a href="https://github.com/jvecinadev?tab=repositories"><img height="130" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jvecinadev&layout=compact&bg_color=00000000&title_color=c9d1d9&text_color=8b949e&hide_border=true&langs_count=6" alt="Top languages" /></a>
 </p>
