@@ -1,100 +1,116 @@
-<div align="center">
+<table>
+  <tr>
+    <td valign="top" width="65%">
+      <h2>John Francis Vecina</h2>
+      <p><strong>Full-Stack & Applied AI Engineer</strong></p>
+      <p>I build web and AI systems where the database enforces the rules, schemas constrain the outputs, and integration tests prove it.</p>
+      <p><sub>TypeScript & Node.js for core application architecture.<br/>Python & FastAPI for structured LLM pipelines and orchestration.</sub></p>
+    </td>
+    <td valign="top" width="35%">
+      <p><strong>Links</strong><br/>
+      <a href="https://jvecina-dev.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/john-francis-vecina-a76aa63b9/">LinkedIn</a> · <a href="mailto:johnvecina640@gmail.com">Email</a></p>
+      <p><strong>Focus</strong><br/>
+      <sub>Tenant Isolation · Database-Driven RBAC<br/>Transactional State · Structured LLM I/O</sub></p>
+      <p><strong>Active</strong><br/>
+      <a href="https://github.com/jvecinadev/plinth"><code>plinth</code></a> · <a href="https://github.com/jvecinadev/bantay-ph"><code>bantay-ph</code></a></p>
+    </td>
+  </tr>
+</table>
 
-# John Francis Vecina
+### Selected Systems
 
-**Full Stack Developer, MERN & TypeScript**
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h4>01 // <a href="https://github.com/jvecinadev/plinth">Plinth</a></h4>
+      <p><sub><strong>Multi-Tenant Workspace & Project SaaS</strong></sub></p>
+      <p><sub>Workspace-scoped B2B system managing clients, projects, and tasks with strict tenant isolation and cached analytical pipelines.</sub></p>
+      <ul>
+        <li><sub><strong>Isolation & Auth:</strong> 4-tier RBAC (Owner to Viewer), workspace switching, HTTP-only JWTs, and Zod validation on every route.</sub></li>
+        <li><sub><strong>Data & Cache:</strong> Dashboard metrics driven by MongoDB aggregation pipelines with Redis caching.</sub></li>
+        <li><sub><strong>Verification:</strong> Jest + Supertest integration suite proving cross-tenant isolation and soft-delete integrity in CI.</sub></li>
+      </ul>
+      <p><sub><code>React 19</code> <code>TypeScript</code> <code>Express 5</code> <code>MongoDB</code> <code>Redis</code> <code>Zod</code> <code>Docker</code></sub></p>
+    </td>
+    <td valign="top" width="50%">
+      <h4>02 // <a href="https://github.com/jvecinadev/bantay-ph">Bantay PH</a></h4>
+      <p><sub><strong>Civic Issue-Reporting & Audit Platform</strong></sub></p>
+      <p><sub>Local government workflow engine routing resident reports through verification and staff resolution with an immutable audit trail.</sub></p>
+      <ul>
+        <li><sub><strong>Dynamic RBAC:</strong> Per-request database permission resolution rather than stale JWT-baked roles.</sub></li>
+        <li><sub><strong>Concurrency:</strong> Enforced report lifecycle state machine using transactional, race-condition-safe updates.</sub></li>
+        <li><sub><strong>Schema Rigor:</strong> Prisma + MySQL enforcing decimal coordinates, unique validator constraints, and strict cascade rules.</sub></li>
+      </ul>
+      <p><sub><code>React 19</code> <code>TypeScript</code> <code>Express 5</code> <code>Prisma</code> <code>MySQL</code> <code>TanStack Query</code></sub></p>
+    </td>
+  </tr>
+</table>
 
-<p>
-  <a href="https://www.linkedin.com/in/john-francis-vecina-a76aa63b9/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://jvecina-dev.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=google-chrome&logoColor=white"/>
-  </a>
-  <a href="mailto:johnvecina640@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/>
-  </a>
+### Stack & Primitives
+
+<table>
+  <tr>
+    <td width="22%"><sub><strong>Languages</strong></sub></td>
+    <td>
+      <img src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=c9d1d9" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/Python-161b22?style=flat-square&logo=python&logoColor=c9d1d9" alt="Python" />
+      <img src="https://img.shields.io/badge/SQL-161b22?style=flat-square&logo=postgresql&logoColor=c9d1d9" alt="SQL" />
+      <img src="https://img.shields.io/badge/JavaScript-161b22?style=flat-square&logo=javascript&logoColor=c9d1d9" alt="JavaScript" />
+    </td>
+  </tr>
+  <tr>
+    <td><sub><strong>Backend & Schemas</strong></sub></td>
+    <td>
+      <img src="https://img.shields.io/badge/Node.js-161b22?style=flat-square&logo=nodedotjs&logoColor=c9d1d9" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Express_5-161b22?style=flat-square&logo=express&logoColor=c9d1d9" alt="Express" />
+      <img src="https://img.shields.io/badge/FastAPI-161b22?style=flat-square&logo=fastapi&logoColor=c9d1d9" alt="FastAPI" />
+      <img src="https://img.shields.io/badge/Zod-161b22?style=flat-square&logo=zod&logoColor=c9d1d9" alt="Zod" />
+      <img src="https://img.shields.io/badge/Pydantic-161b22?style=flat-square&logo=pydantic&logoColor=c9d1d9" alt="Pydantic" />
+    </td>
+  </tr>
+  <tr>
+    <td><sub><strong>Data & Persistence</strong></sub></td>
+    <td>
+      <img src="https://img.shields.io/badge/MySQL-161b22?style=flat-square&logo=mysql&logoColor=c9d1d9" alt="MySQL" />
+      <img src="https://img.shields.io/badge/MongoDB-161b22?style=flat-square&logo=mongodb&logoColor=c9d1d9" alt="MongoDB" />
+      <img src="https://img.shields.io/badge/Prisma-161b22?style=flat-square&logo=prisma&logoColor=c9d1d9" alt="Prisma" />
+      <img src="https://img.shields.io/badge/Redis-161b22?style=flat-square&logo=redis&logoColor=c9d1d9" alt="Redis" />
+    </td>
+  </tr>
+  <tr>
+    <td><sub><strong>AI & LLM Providers</strong></sub></td>
+    <td>
+      <img src="https://img.shields.io/badge/Anthropic_Claude-161b22?style=flat-square&logo=anthropic&logoColor=c9d1d9" alt="Claude" />
+      <img src="https://img.shields.io/badge/OpenAI-161b22?style=flat-square&logo=openai&logoColor=c9d1d9" alt="OpenAI" />
+      <img src="https://img.shields.io/badge/Google_Gemini-161b22?style=flat-square&logo=googlegemini&logoColor=c9d1d9" alt="Gemini" />
+      <img src="https://img.shields.io/badge/DeepSeek-161b22?style=flat-square&logo=deepseek&logoColor=c9d1d9" alt="DeepSeek" />
+    </td>
+  </tr>
+  <tr>
+    <td><sub><strong>Frontend & State</strong></sub></td>
+    <td>
+      <img src="https://img.shields.io/badge/React_19-161b22?style=flat-square&logo=react&logoColor=c9d1d9" alt="React" />
+      <img src="https://img.shields.io/badge/TanStack_Query-161b22?style=flat-square&logo=reactquery&logoColor=c9d1d9" alt="TanStack Query" />
+      <img src="https://img.shields.io/badge/Zustand-161b22?style=flat-square" alt="Zustand" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-161b22?style=flat-square&logo=tailwindcss&logoColor=c9d1d9" alt="Tailwind" />
+      <img src="https://img.shields.io/badge/Vite-161b22?style=flat-square&logo=vite&logoColor=c9d1d9" alt="Vite" />
+    </td>
+  </tr>
+  <tr>
+    <td><sub><strong>Verification & Infra</strong></sub></td>
+    <td>
+      <img src="https://img.shields.io/badge/Jest-161b22?style=flat-square&logo=jest&logoColor=c9d1d9" alt="Jest" />
+      <img src="https://img.shields.io/badge/Supertest-161b22?style=flat-square" alt="Supertest" />
+      <img src="https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=c9d1d9" alt="Docker" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-161b22?style=flat-square&logo=githubactions&logoColor=c9d1d9" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/Linux-161b22?style=flat-square&logo=linux&logoColor=c9d1d9" alt="Linux" />
+    </td>
+  </tr>
+</table>
+
+### Telemetry
+
+<p align="left">
+  <a href="https://github.com/jvecinadev"><img height="135" src="https://github-readme-stats.vercel.app/api?username=jvecinadev&show_icons=true&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=58a6ff&rank_icon=github&include_all_commits=true" alt="GitHub stats" /></a>
+  <a href="https://github.com/jvecinadev?tab=repositories"><img height="135" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jvecinadev&layout=compact&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&langs_count=6" alt="Top languages" /></a>
 </p>
-
-</div>
-
----
-
-## About
-
-IT student and full stack developer with hands-on experience building production-style web applications end to end: UI, REST APIs, database design, and deployment. Primary stack is MERN and TypeScript, with recent work spanning Prisma, MySQL, and multi-tenant application architecture.
-
-## Projects
-
-### Plinth
-Multi-tenant SaaS platform for managing clients, projects, and tasks across team workspaces, with role-based access control and a metrics dashboard.
-
-- Workspace-based tenancy with roles (owner, admin, member, viewer), member invites, and workspace switching
-- Zod validation on every API route, JWT auth via HTTP-only cookies
-- Jest + Supertest integration suite covering tenant isolation and soft-delete behavior
-- Dashboard backed by MongoDB aggregation pipelines, cached in Redis
-- Dockerized frontend and backend with a GitHub Actions pipeline running build and test on every push
-
-**Stack:** React 19, TypeScript, Node.js, Express 5, MongoDB, Redis, Zod, Jest, Docker
-
-[View Repository](https://github.com/jvecinadev/plinth)
-
-### Bantay PH
-Full-stack community issue-reporting platform for local government use. Residents submit reports, validators verify them, and staff resolve them through an enforced status workflow with a complete audit trail.
-
-- Database-driven RBAC, with role-to-permission mapping resolved per request rather than hardcoded or baked into the JWT
-- Enforced report lifecycle state machine with transactional, race-condition-safe status updates
-- Prisma schema modeled with deliberate constraints: decimal-precision coordinates, unique verification per validator, and per-relation cascade/restrict delete rules
-- React frontend with TanStack Query for server state, Zustand for auth state, and a Leaflet-based location picker
-
-**Stack:** React 19, TypeScript, Express 5, Prisma, MySQL, TanStack Query, Zustand, Tailwind CSS
-
-[View Repository](https://github.com/jvecinadev/bantay-ph)
-
-## Tech Stack
-
-**Frontend**
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Zustand-433E38?style=flat-square"/>
-</p>
-
-**Backend & Database**
-
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-</p>
-
-**Testing & Infrastructure**
-
-<p>
-  <img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-</p>
-
-**Tools & Platforms**
-
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
-</p>
-
----
-
-<div align="center">
-
-[LinkedIn](https://www.linkedin.com/in/john-francis-vecina-a76aa63b9/) · [Portfolio](https://jvecina-dev.vercel.app/) · [Email](mailto:johnvecina640@gmail.com)
-
-</div>
